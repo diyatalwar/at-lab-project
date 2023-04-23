@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <item
+        android:fontFamily="@font/montserrat"
+        android:id="@+id/nav_dashboard"
+        android:title="My Dashboard" />
+<!--        android:onClick="openDashboardScreen"/>-->
+
+    <item
+        android:fontFamily="@font/montserrat"
+        android:id="@+id/nav_badges"
+        android:title="My Badges" />
+<!--        android:onClick="openBadgesScreen" -->
+
+    <item
+        android:fontFamily="@font/montserrat"
+        android:id="@+id/nav_resources"
+        android:title="Resources"/>
+<!--        android:onClick="openResourcesScreen" />-->
+
+    <item
+        android:fontFamily="@font/montserrat"
+        android:id="@+id/nav_jobs"
+        android:title="Bulletin Board"/>
+<!--        android:onClick="openJobScreen" />-->
+
+    <item
+        android:fontFamily="@font/montserrat"
+        android:id="@+id/nav_tracker"
+        android:title="Mental Health Check-in"/>
+<!--        android:onClick="openMHScreen" />-->
+
+    <item
+        android:fontFamily="@font/montserrat"
+        android:id="@+id/nav_settings"
+        android:title="Settings"/>
+<!--        android:onClick="openSettingsScreen" />-->
+</menu>
